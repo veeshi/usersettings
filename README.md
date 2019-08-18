@@ -12,7 +12,7 @@
 ## Example:
 
 The following example code shows the entire interface. This program will change its output each time it is run.
-
+```python
     #!/usr/bin/python
     from usersettings import Settings
     import time
@@ -36,9 +36,9 @@ The following example code shows the entire interface. This program will change 
     print "I've run {0.counter} time(s). I like {0.animal}!".format(s)
     print "I've been launched at these times: ",
     print ", ".join([str(x) for x in s.runtimes])
-
+```
 Running this example produces:
-
+```bash
     $ python ./example.py 
     I've run 1 time(s). I like turtles!
     I've been launched at these times:  1370046713.82
@@ -49,7 +49,7 @@ Running this example produces:
     I've run 3 time(s). I like the Rabbit of Caerbannog!
     I've been launched at these times:  1370046713.82, 1370046716.99, 1370046719.49
     $ 
-
+```
 ## License
 
 This module is licensed under a BSD-style licence. See LICENSE.txt for details.
